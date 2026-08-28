@@ -510,7 +510,7 @@ async function loadGitHubProfile() {
 
     if (
         username === "" ||
-        username === "https://github.com/prasad1894"
+        username === "YOUR_GITHUB_USERNAME"
     ) {
 
         getElement("githubBio").textContent =
