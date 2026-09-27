@@ -84,13 +84,40 @@ const portfolioData = {
     ],
 
     projects: [
+
+        {
+            title: "Student Management System",
+
+            image: "assets/projects/student-management.png",
+
+            description:
+                "A full-stack Django web application for managing students, faculty, classes, subjects, attendance, tasks and leave requests with role-based authentication and PostgreSQL database.",
+
+            technologies: [
+                "Python",
+                "Django",
+                "PostgreSQL",
+                "Django REST Framework",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+
+            github:
+                "https://github.com/prasad1894/StudentManagementSystem",
+
+            demo:
+                "https://student-management-system-zdwt.onrender.com/"
+        },
+
+
         {
             title: "Attendance Management System",
 
             image: "assets/projects/attendance.png",
 
             description:
-                "A web-based attendance management system for managing classes, students, attendance records and daily reports.",
+                "A web-based attendance management system for managing classes, students, attendance records and daily attendance reports.",
 
             technologies: [
                 "HTML",
@@ -103,8 +130,10 @@ const portfolioData = {
             github:
                 "https://github.com/prasad1894/Attendance",
 
-            demo: "https://attendance-gules-tau.vercel.app/"
+            demo:
+                "https://attendance-gules-tau.vercel.app/"
         },
+
 
         {
             title: "AI / ML Prediction System",
@@ -125,29 +154,8 @@ const portfolioData = {
                 "https://github.com/YOUR_GITHUB_USERNAME/aiml-project",
 
             demo: "#"
-        },
-
-        {
-            title: "Django Web Application",
-
-            image: "assets/projects/django.png",
-
-            description:
-                "A responsive web application built using Django and MySQL with a modern frontend interface.",
-
-            technologies: [
-                "Python",
-                "Django",
-                "MySQL",
-                "HTML",
-                "CSS"
-            ],
-
-            github:
-                "https://github.com/YOUR_GITHUB_USERNAME/django-project",
-
-            demo: "#"
         }
+
     ],
 
     education: [
@@ -510,7 +518,7 @@ async function loadGitHubProfile() {
 
     if (
         username === "" ||
-        username === "https://github.com/prasad1894"
+        username === "YOUR_GITHUB_USERNAME"
     ) {
 
         getElement("githubBio").textContent =
