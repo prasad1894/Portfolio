@@ -29,7 +29,8 @@ const portfolioData = {
     typingRoles: [
         "Python Developer",
         "AI / ML Enthusiast",
-        "MTech CSE Student"
+        "MTech CSE Student",
+        "Networking & CyberSecurity"
     ],
 
     skills: [
@@ -161,43 +162,43 @@ const portfolioData = {
     education: [
         {
             degree:
-                "M.Tech in Computer Science and Engineering",
+                "MTech",
 
             college: "Dhanekula Institute of Engineering and Technology",
 
-            location: "Ganguru, Vijayawada",
+            location: "Vijayawada",
 
             year: "2025 - 2027",
 
             description:
-                "Pursuing postgraduate studies with a focus on Artificial Intelligence and Machine Learning."
+                "Pursuing postgraduate studies in Computer Science and Engineering."
         },
 
         {
             degree:
-                "B.Tech in Computer Science and Engineering",
+                "BTech",
 
             college:
-                "Dhanekula Institute of Engineering and Technology",
+                "BTECH Under JNTUK",
 
             location:
-                "Ganguru, Vijayawada",
+                "Vijayawada",
 
-            year: "2020 - 2023",
+            year: "2020 - 2024",
 
             description:
-                "Completed B.Tech in Computer Science and Engineering."
+                "Completed BTech in Computer Science and Engineering."
         },
 
         {
             degree:
-                "Diploma in Mechanical Engineering",
+                "Diploma",
 
             college:
-                "Dhanekula Institute of Engineering and Technology",
+                "DIPLOMA under SBTET",
 
             location:
-                "Ganguru, Vijayawada",
+                "Vijayawada",
 
             year: "2017 - 2020",
 
