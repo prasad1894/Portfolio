@@ -162,9 +162,9 @@ const portfolioData = {
     education: [
         {
             degree:
-                "MTech",
+                "Dhanekula Institute of Engineering and Technology, Autonomous",
 
-            college: "Dhanekula Institute of Engineering and Technology",
+            college: "MTECH",
 
             location: "Vijayawada",
 
@@ -176,10 +176,10 @@ const portfolioData = {
 
         {
             degree:
-                "BTech",
+                "BTech under JNTUK",
 
             college:
-                "BTECH Under JNTUK",
+                "BTECH",
 
             location:
                 "Vijayawada",
@@ -192,10 +192,10 @@ const portfolioData = {
 
         {
             degree:
-                "Diploma",
+                "Diploma under SBTET",
 
             college:
-                "DIPLOMA under SBTET",
+                "DIPLOMA",
 
             location:
                 "Vijayawada",
