@@ -6,13 +6,13 @@ const portfolioData = {
     name: "Gangisetti Devi Varaprasad",
 
     description:
-        "I build projects using Python, Artificial Intelligence, Machine Learning and modern web technologies.",
+        "I build projects using Python, Django, Django Rest Framework and PostgreSQL.",
 
     about:
-        "I am a passionate technology enthusiast interested in Artificial Intelligence, Machine Learning and software development. I enjoy transforming ideas into practical applications and solving real-world problems using technology.",
+        "Professional with 3 years of experience in software development and knowledge of Python, C, Django, REST APIs and PostgreSQL.",
 
     aboutTwo:
-        "Currently, I am pursuing M.Tech in Computer Science and Engineering while developing my skills in Python, web development and machine learning.",
+        "Experienced in guiding students in programming, developing web applications and analyzing data. Strong problem-solving skills with a willingness to learn and improve technical knowledge.",
 
     email: "varaprasad1894@gmail.com",
 
@@ -27,10 +27,10 @@ const portfolioData = {
     },
 
     typingRoles: [
+        "Programmer",
         "Python Developer",
         "AI / ML Enthusiast",
-        "MTech CSE Student",
-        "Networking & CyberSecurity"
+        "BTech CSE Student",
     ],
 
     skills: [
@@ -162,27 +162,11 @@ const portfolioData = {
     education: [
         {
             degree:
-                "Dhanekula Institute of Engineering and Technology, Autonomous",
-
-            college: "MTECH",
-
-            location: "Vijayawada",
-
-            year: "2025 - 2027",
-
-            description:
-                "Pursuing postgraduate studies in Computer Science and Engineering."
-        },
-
-        {
-            degree:
-                "BTech under JNTUK",
-
-            college:
                 "BTECH",
 
-            location:
-                "Vijayawada",
+            college: "Dhanekula Institute of Engineering and Technology",
+
+            location: "Vijayawada",
 
             year: "2020 - 2024",
 
@@ -190,21 +174,7 @@ const portfolioData = {
                 "Completed BTech in Computer Science and Engineering."
         },
 
-        {
-            degree:
-                "Diploma under SBTET",
-
-            college:
-                "DIPLOMA",
-
-            location:
-                "Vijayawada",
-
-            year: "2017 - 2020",
-
-            description:
-                "Completed Diploma in Mechanical Engineering."
-        }
+        
     ]
 };
 
